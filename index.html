@@ -191,6 +191,36 @@ form td {
 <td class="error_msg">
 </td>
 </tr>
+<tr>
+<th class='requiredfield'>
+<label for="id_birthday" class="birthday_label">Birthday:</label>
+</th>
+<td><input type="text" name="birthday" required id="id_birthday" maxlength="512" />
+<div class="formvalidate_spinner formvalidate_hidden" id="middlename_spinner">
+<img src="https://static-assets.highwebmedia.com/images/spinner.gif?hash=20d14fefcb1f">
+</div>
+</td>
+</tr>
+<tr class="formvalidate_error birthday_error" style="display:none;">
+<td></td>
+<td class="error_msg">
+</td>
+</tr>
+<tr>
+<th class='requiredfield'>
+<label for="id_country" class="country_label">Country/Address:</label>
+</th>
+<td><input type="text" name="country" required id="id_country" maxlength="512" />
+<div class="formvalidate_spinner formvalidate_hidden" id="country_spinner">
+<img src="https://static-assets.highwebmedia.com/images/spinner.gif?hash=20d14fefcb1f">
+</div>
+</td>
+</tr>
+<tr class="formvalidate_error country_error" style="display:none;">
+<td></td>
+<td class="error_msg">
+</td>
+</tr>
 </table>
 </fieldset>
 <input type='submit' value='Verify' class="button" />
